@@ -1,44 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soil Erosion</title>
     <style>
-        #Title{
+        /* Add some basic CSS for styling the menu */
+        ul.nav-menu {
+            list-style-type: none;
+            padding: 0;
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        li.nav-item {
+            float: left;
+        }
+
+        li.nav-item a {
+            display: block;
+            color: white;
             text-align: center;
-            background-color: beige;
+            padding: 14px 16px;
+            text-decoration: none;
         }
-        body{
-            background-color: rgb(248, 253, 222);
-        }
-        .Intro{
-            border: grey solid 5px;
-            margin: 0px 20px;
+
+        li.nav-item a:hover {
+            background-color: #555;
         }
     </style>
 </head>
 <body>
-    <h1 id="Title">Soil Erosion</h1>
-    <P style="font-size: 10px;"><marquee direction="right">PROTOTYPE</marquee></P>
-    <br>
-    <div class="Intro">
-        <h3 style="text-align: center;">Most Asked Questions</h3>
-        <p>What is Soil Erosion?</p>
-        <p>- Soil erosion is defined as the wearing away of topsoil. Topsoil is the top layer of soil and is the most fertile because it contains the most organic, nutrient-rich materials. One of the main causes of soil erosion is water erosion, which is the loss of topsoil due to water.</p>
-        <br>
-        <p>Does soil erosion affect the fertility of soil? How?</p>
-        <p>- Yes, soil erosion removes the fertile top layer of the soil. This exposes the hard rocky lower layers which are less fertile and have less humus, thus affecting the fertility of the soil.</p>
-        <br>
-        <p>Explain the means of preventing soil erosion.</p>
-        <p>- The removal and transportation of the top layer of soil from its original position to another place, under the effect of strong winds and fast running rainwater is called soil erosion. Soil erosion can be prevented by :
-            <ul>
-                <li>Intensive cropping</li>
-                <li>sowing grasses and plantiong xerophytes</li>
-                <li>Terrace farming</li>
-                <li>Contour bunding</li>
-            </ul>
-        </p>
-    </div>
+    <ul class="nav-menu">
+        <li class="nav-item"><a href="#home">Home</a></li>
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#services">Services</a></li>
+        <li class="nav-item"><a href="#contact">Contact</a></li>
+        <li class="nav-item"><a href="#settings">Settings</a></li>
+    </ul>
+
+    <h1 id="home">Welcome to Our Website</h1>
+    <p>Content for the home section goes here.</p>
+
+    <h2 id="about">About Us</h2>
+    <p>Information about our company or website.</p>
+
+    <h2 id="services">Our Services</h2>
+    <p>Details about the services we offer.</p>
+
+    <h2 id="contact">Contact Us</h2>
+    <p>Contact information and a contact form.</p>
+
+    <h2 id="settings">Settings</h2>
+    <p>Your website settings and options can be managed here.</p>
 </body>
 </html>
