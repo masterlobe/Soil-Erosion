@@ -7,20 +7,31 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <h1 id="Title">Soil Erosion</h1>
+<!--Rough work-->
+        <ul class="nav-menu">
+            
+            <li class="nav-item"><a onclick="scrollToSection('about')">About</a></li>
+            <li class="nav-item"><a onclick="scrollToSection('services')">Services</a></li>
+            <li class="nav-item"><a onclick="scrollToSection('Questions')">Questions</a></li>
+            <li class="nav-item"><a onclick="scrollToSection('settings')">Settings</a></li>
+            <li class="nav-item"><a onclick="scrollToSection('enquiry')">Review</a></li>
+        </ul>
+        <!--
+        <h1 id="home">Welcome to Our Website</h1>
+        <p>Content for the home section goes here.</p>
+        -->
+    
+        <script>
+            function scrollToSection(sectionId) {
+                const element = document.getElementById(sectionId);
+                if (element) {
+                    element.scrollIntoView({ behavior: "smooth" });
+                }
+            }
+        </script>
 
-    <div id="intro">
+
         
-    </div>
-    <ul class="nav-menu">
-        <li class="nav-item"><a href="#home">Home</a></li>
-        <li class="nav-item"><a href="#about">About</a></li>
-        <li class="nav-item"><a href="#services">Services</a></li>
-        <li class="nav-item"><a href="#contact">Contact</a></li>
-        <li class="nav-item"><a href="#settings">Settings</a></li>
-    </ul>
-
-
     <!--Questions: Should be in the middle of explanations-->
     <div class="Questions">
         <h3 style="text-align: center;">Most Asked Questions</h3>
