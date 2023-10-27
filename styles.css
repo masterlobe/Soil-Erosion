@@ -10,17 +10,22 @@ body{
     margin: 0px 20px;
 }
 #enquiry{
-    background-color: rgb(106, 29, 42);
+    background-color: rgb(207, 201, 202);
 }
 #intro2 > .List{
     background-color: red;
 }
 #Intro{
-
+    text-align: center;
+    text-decoration: underline;
 }
 .ListData{
     font-weight: bold;
 
+}
+
+#img{
+    width: 100%;
 }
 
 ul.nav-menu {
