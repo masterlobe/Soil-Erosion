@@ -1,0 +1,14 @@
+#Title{
+    text-align: center;
+    background-color: beige;
+}
+body{
+    background-color: rgb(248, 253, 222);
+}
+.Questions{
+    border: grey solid 5px;
+    margin: 0px 20px;
+}
+#enquiry{
+    background-color: white;
+}
