@@ -31,6 +31,7 @@ body{
 }
 #graph{
     
+    padding: 0px 0px 150px 0px;
 }
 #img{
     width: 100%;
@@ -58,4 +59,19 @@ li.nav-item a {
 
 li.nav-item a:hover {
     background-color: #555;
+}
+
+.image-text-container {
+    display: flex; /* Use a flexbox layout */
+    align-items: center; /* Vertically center the items */
+}
+
+/* Style the image */
+.image-text-container img {
+    max-width: 50%; /* Adjust the image width as needed */
+}
+
+/* Style the text */
+.image-text-container p {
+    margin-left: 20px; /* Add some space between the image and text */
 }
